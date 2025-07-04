@@ -1,7 +1,5 @@
 package coderbyte;
 
-import java.util.Scanner;
-
 public class Powers_of_Two {
     public static boolean PowersOfTwo(String num) {
         boolean isPow = false;
@@ -11,10 +9,5 @@ public class Powers_of_Two {
         }
         if(rest == 2) isPow = true;
         return isPow;
-    }
-
-    public static void main (String[] args) {  
-        Scanner s = new Scanner(System.in);
-        System.out.print(PowersOfTwo(s.nextLine())); 
     }
 }

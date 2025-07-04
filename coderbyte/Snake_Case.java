@@ -1,8 +1,6 @@
 package coderbyte;
 
-import java.util.Scanner;
-
-public class SnakeCase {
+public class Snake_Case {
     public static String SnakeCase(String str) {
         String answer = "";
         for(int i = 0; i < str.length(); i++){     
@@ -15,10 +13,5 @@ public class SnakeCase {
         }
         }  
         return answer;
-    }
-
-    public static void main (String[] args) {   
-        Scanner s = new Scanner(System.in);
-        System.out.print(SnakeCase(s.nextLine())); 
     }
 }
