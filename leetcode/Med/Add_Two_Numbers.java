@@ -19,7 +19,6 @@ public class Add_Two_Numbers {
             if (l1 != null) l1 = l1.next;
             if (l2 != null) l2 = l2.next;
         }
-
         return begin.next;
     }
 }
